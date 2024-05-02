@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="shortcut icon" type="x-icon" href="project Del/image/delogo.png">
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+        <a href="index.html"><button class="button">Back</button></a>
+    <section>
+        <div class="form-container">
+            <form method="POST" action="https://formspree.io/f/xgegdyob">
+                <div class="input-row">
+                    <label>FirsName <em>*</em></label>
+                    <input type="text" name="firstName" required>
+                </div>
+                <div class="input-row">
+                    <label>MiddleName <em>*</em></label>
+                    <input type="text" name="middleName" required>
+                </div>
+                <div class="input-row">
+                    <label>LastName <em>*</em></label>
+                    <input type="text" name="lastName" required>
+                </div>
+                <div class="input-row">
+                    <label for="Gender">Gender:</label>
+                    <select name="Gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                </div>
+                <div class="input-row">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div class="input-row">
+                    <label>Email<em>*</em></label>
+                    <input type="email" name="Email" required>
+                </div>
+                <div class="input-row">
+                    <label>Contact <em>*</em></label>
+                    <input type="tel" name="Tel" required>
+                </div>
+                <div class="input-row">
+                    <label for="Religion">Religion:</label>
+                    <select name="Religion" required>
+                    <option value="Catholic">Catholic</option>
+                    <option value="Inglesia ni Cristo">Inglesia ni Cristo</option>
+                    <option value="Aglipay">Aglipay</option>
+                    <option value="Baptist">Baptist</option>
+                    <option value="Dating Daan">Dating Daan</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Others">Others</option>
+                </select>
+                <div class="input-row">
+                    <label for="Status">Status:</label>
+                    <select name="Status" required>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Widow/er">Widow/er</option>
+                    <option value="Legally Separated">Legally Separated</option>
+                    <option value="Living-In">Living-In</option>
+                    <option value="Seperated">Seperated</option>
+                    <option value="Divorces">Divorces</option>
+                </select>
+                <div class="input-row">
+                    <label for="Sector">Sector:</label>
+                    <select name="Sector" required>
+                    <option value="Solo Parent">Solo Parent</option>
+                    <option value="PWD">PWD</option>
+                    <option value="Senior Citizen">Senior Citizen</option>
+                    <option value="Indegent Indigenous People">Indegent Indigenous People</option>
+                    <option value="Others">Others</option>
+                </select>
+                <div class="input-row">
+                    <label for="Purpose">Purpose:</label>
+                    <select name="Purpose" required>
+                    <option value="Barangay Clerance">Barangay Clerance</option>
+                    <option value="Indigancies">Indigancies</option>
+                    <option value="Cedula">Cedula</option>
+                </select>
+                <div class="input-row">
+                 <label for="myfile">Select Image files for your Image:</label>
+                 <input type="file" id="myfile" name="myfile" multiple><br><br>
+                </div>
+                <div class="input-row">
+                 <input type="submit" name="send" value="submit">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
